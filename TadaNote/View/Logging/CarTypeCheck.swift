@@ -30,6 +30,8 @@ class CarTypeCheck: UIViewController, UIPickerViewDelegate, UIPickerViewDataSour
         
         carType_Image.image = imageArrary[0]
        
+        let ac = UIApplication.shared.delegate as? AppDelegate
+                ac?.paramCar = self.carType_Image.image
     }
     
 
