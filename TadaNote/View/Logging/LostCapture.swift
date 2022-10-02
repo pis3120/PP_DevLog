@@ -17,7 +17,7 @@ class LostCapture: UIViewController, UIImagePickerControllerDelegate, UINavigati
     @IBOutlet weak var cart: UIImageView!
     @IBOutlet weak var warn: UIImageView!
     
-    let placeholder = "(ex : The mouse cursor of the TextView was decorated using the SnapKit)"
+    let placeholder = "(ex : Memo_Field is adjust using the AutoLayOut of SnapKit)"
     let activityTextView = UITextView().then {
             $0.font = .systemFont(ofSize: 14)
             $0.layer.cornerRadius = 18
